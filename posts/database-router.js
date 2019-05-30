@@ -1,1 +1,1 @@
-const.Posts = require('./')
+// const.Posts = require('./')
