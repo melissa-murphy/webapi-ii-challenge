@@ -1,6 +1,6 @@
 const express = require('express');
 
-const db_router = require('../posts/database-router.js');
+const db_router = require('../posts/post-router');
 
 const server = express();
 
