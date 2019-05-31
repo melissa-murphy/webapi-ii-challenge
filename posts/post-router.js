@@ -1,6 +1,9 @@
-const Posts = require('../data/db.js');
+const express = require('express');
+const Posts = require('../data/db');
 
-const router = require('express').Router();
+const router = express.Router();
+
+
 
 router.get('/', async (req, res) => {
   try {
