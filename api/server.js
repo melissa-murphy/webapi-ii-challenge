@@ -10,4 +10,6 @@ server.get('/', (req, res) => {
   res.send(`<h1>Hello to the world, from Lambda School Students</h1>`);
 }); // Server running initial GET
 
-server.use('./posts', db_router);
+server.use('/posts', db_router);
+
+module.exports = server;
